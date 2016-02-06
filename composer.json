@@ -1,0 +1,23 @@
+{
+    "name": "shalomabitan/composer-test",
+    "description": "Just a quick and simple composer test",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^6.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit-mock-objects": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Something\\": "src"
+        }
+    }
+    "authors": [
+        {
+            "name": "Joel Abitan",
+            "email": "shalomabitan@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
